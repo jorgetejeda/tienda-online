@@ -1,0 +1,50 @@
+Store Online
+    * [x] create database
+        * [x] create product table
+            * id -> integer
+            * name -> varchar
+            * description -> varchar 
+            * price -> double
+            * image -> varchar
+            * category_id -> integer
+        * [x] create categorie table
+            * id -> integer
+            * name -> varchar
+    * [x] create api
+        * [x] install dependencies
+        * [x] config api 
+        * [x] create model / relations
+        * [x] create root query
+        * [x] create mutation
+            * [x] product
+                * get All
+                * get by id
+                * delete
+                * update
+            * [x] category
+                * get All
+                * get by id
+                * delete
+                * update
+    * [x] install React / Next
+        * install Apollo      
+        * install graphql-tag  
+        * install Sass      
+        * install FontAwesome      
+        * install Fade      
+    * [x] Page to view all product
+        * [x] Connect to api
+        * [x] Header Component
+            * Home
+            * Individual product
+            * CRUD product
+            * CRUD product category
+        * [x] Search Component
+        * [x] filter by Categories Component
+        * [x] List Product Component
+        * [x] Product Component
+    * [x] Modal Create a new product
+        * [] Form
+            * [] Upload image
+        * [] Table to see all product
+    * [x] Modal to Create a new category
