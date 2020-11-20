@@ -1,0 +1,18 @@
+$spaces: ("left":("padding""margin"),
+    "right":("padding""margin"),
+    "top":("padding""margin"),
+    "bottom":("padding""margin"));
+
+@each $name,
+$space in $spaces {
+
+    @each $property,
+    $value in $space {
+        $short: str-slice($property, 0, 1);
+        $prefix: str-slice($name, 0, 1);
+
+        .no-#{$short}#{$prefix} {
+            #{$property}-#{$name}: 0 !important;
+        }
+    }
+}
