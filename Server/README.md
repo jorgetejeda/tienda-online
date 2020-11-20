@@ -1,8 +1,4 @@
-# Instucciones
-
-El servidor y el cliente deberán instalarse las dependencias de manera individual.
-
-## Instalación
+# Instucciones para el servidor
 
 ### Base de datos
 
@@ -19,18 +15,3 @@ Para probar las rutas podemos instalar la extensión de chrome [ChromeiQl](https
 
 Una vez instalado copiamos la url de donde esta corriendo nuestro servidor, hacemos click en nuestra extension **ChromeiQL** y pegamos nuestra url y hacemos click en botón **Set endpoint**
 y podemos comenzar a realizar las consultas a grapqhl.
-
-### Client
-Dentro de la carpeta **Website** corremos en consola
-```bash
-npm install
-```
-Una vez termine corremos el siguiente comando
-```bash
-npm run dev
-```
-Se nos abrirá el navegador con el puerto **3001**
-
-#### Nota
-Aun queda por corregir los mutations y querys que envián parametros al servidor
-
